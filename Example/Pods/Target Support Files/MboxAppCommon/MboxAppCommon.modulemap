@@ -1,0 +1,6 @@
+framework module MboxAppCommon {
+  umbrella header "MboxAppCommon-umbrella.h"
+
+  export *
+  module * { export * }
+}

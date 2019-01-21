@@ -7,36 +7,31 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'MboxAppCommon'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MboxAppCommon.'
+    s.name             = 'MboxAppCommon'
+    s.version          = '0.0.1'
+    s.summary          = '公共组件'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+    # This description is used to generate tags and improve search results.
+    #   * Think: What does it do? Why did you write it? What is the focus?
+    #   * Try to keep it short, snappy and to the point.
+    #   * Write the description between the DESC delimiters below.
+    #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+    s.description      = '存放一些项目学习中经常会用到的一些公共方法'
 
-  s.homepage         = 'https://github.com/ZhenKaiJia/MboxAppCommon'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ZhenKaiJia' => 'jiazhenkai@fangdd.com' }
-  s.source           = { :git => 'https://github.com/ZhenKaiJia/MboxAppCommon.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+    s.homepage         = 'https://github.com/ZhenKaiJia/MboxAppCommon.git'
 
-  s.ios.deployment_target = '8.0'
+    s.license          = { :type => 'MIT', :file => 'LICENSE' }
+    s.author           = 'ZhenKaiJia'
+    s.source           = { :git => 'https://github.com/ZhenKaiJia/MboxAppCommon.git', :tag => s.version.to_s }
 
-  s.source_files = 'MboxAppCommon/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'MboxAppCommon' => ['MboxAppCommon/Assets/*.png']
-  # }
+    s.ios.deployment_target = '8.0'
+    s.source_files = 'MboxAppCommon/Classes/**/*'
+    s.swift_version = '4.0'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    # s.resource_bundles = {'AppCommonDDDD' => ['AppCommonDDDD/Assets/*.png']}
+
+    # s.public_header_files = 'Pod/Classes/**/*.h'
+    s.frameworks = 'UIKit', 'MapKit'
+    s.dependency 'CHTCollectionViewWaterfallLayout'
 end
