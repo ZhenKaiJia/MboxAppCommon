@@ -1,10 +1,14 @@
 PODS:
+  - CHTCollectionViewWaterfallLayout (0.9.7):
+    - CHTCollectionViewWaterfallLayout/ObjC (= 0.9.7)
+  - CHTCollectionViewWaterfallLayout/ObjC (0.9.7)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - MboxAppCommon (0.1.0)
+  - MboxAppCommon (0.0.1):
+    - CHTCollectionViewWaterfallLayout
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -12,6 +16,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - CHTCollectionViewWaterfallLayout
     - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
@@ -19,8 +24,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  CHTCollectionViewWaterfallLayout: 9d11068fafecac106695bb5a5d6d0f738483b598
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  MboxAppCommon: 980c752bdf4c381b39746ad644f29a88b5d8ef01
+  MboxAppCommon: bea16e26bca6d90c09013866531b63c0221e89df
 
 PODFILE CHECKSUM: f80fec46b92d0ac2639913660aa95092e49c0c15
 

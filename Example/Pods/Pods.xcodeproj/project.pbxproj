@@ -7,37 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
-		18EA4E0D8B74F2B2BBF8F39B49F49BF9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */; };
-		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		1BE1D881E6C0C09D297D75666A3BF66B /* Pods-MboxAppCommon_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66DB574F1624A2172FD0ED0D1CE88C25 /* Pods-MboxAppCommon_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
-		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		47DEE95708BDBD11436162D166CD192E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */; };
-		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
-		591FBC41C21630990B90C24A0EED3633 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		5BC12F69E33ABA27B9E0B78128CE336D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */; };
+		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA934E65D8A876F5971BDCB728400A9 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		07F75A2B63B49B39B0C9B66B5346FC28 /* CHTCollectionViewWaterfallLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1458889F666D4188A86A04902A7F0FB /* CHTCollectionViewWaterfallLayout-dummy.m */; };
+		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 061EA647B1A35DA21ADA544500E1EFA7 /* UIApplication+StrictKeyWindow.m */; };
+		0D082DB2318D7C5118D2BC2FCFB332D3 /* CHTCollectionViewWaterfallLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA17595EA80DD4F933F7469321DE35D2 /* CHTCollectionViewWaterfallLayout.framework */; };
+		18EA4E0D8B74F2B2BBF8F39B49F49BF9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4684D214D6F052797A3E2E72DD51F321 /* XCTest.framework */; };
+		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED53ED6BBE10E04996FE67EE7CACC57 /* SwiftSupport.swift */; };
+		1ED93D2553C4E4929E3F9DBD27B38624 /* MboxAppCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 424295B2C769879F1D994DCAA1587485 /* MboxAppCommon-dummy.m */; };
+		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D32C4EBFAB3A8AD52A13741061E58EC /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3035E6774E58A08156DC3120DF884EAB /* Pods-MboxAppCommon_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66DB574F1624A2172FD0ED0D1CE88C25 /* Pods-MboxAppCommon_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		327CAF2CFFAEE73A52125E4666715D10 /* CHTCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF4E28EB6EF67217F494925C65CA14D /* CHTCollectionViewWaterfallLayout.m */; };
+		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 642AECD761709312347AFDCF8E3D1D0F /* UIImage+Diff.m */; };
+		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 179ED9B2DCF3EF79A781420B376FC0B5 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		47DEE95708BDBD11436162D166CD192E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F7E31903FD9968B054969FA0539EE2 /* UIKit.framework */; };
+		4BB01BBF58335876CA5078E59CB6E35D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7896B8A1EAEB6DBFACF7751180647F2 /* Foundation.framework */; };
+		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCD8BF337DDC863ED03741CE4C98FFA /* FBSnapshotTestCase-dummy.m */; };
+		59286097A05D28DE648899DD7D5293E8 /* Pods-MboxAppCommon_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D86DB0AF71D725078AE3C8CFA70A8161 /* Pods-MboxAppCommon_Example-dummy.m */; };
+		5BC12F69E33ABA27B9E0B78128CE336D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB54E7824D348FE2DCA62F3D9691668A /* QuartzCore.framework */; };
 		611273442E6050287223A220D6A11950 /* Pods-MboxAppCommon_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C4271EFB73ACD207494AF3A8ADA1BF5 /* Pods-MboxAppCommon_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		6B8DB3BD3CDC4D7A94C1862F18D14639 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
-		78E78E65F3D6A8AF1EBAD3462264AAD1 /* MboxAppCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A70706975B755809E50C595DA535DD /* MboxAppCommon-dummy.m */; };
-		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
-		ABE82AE7DFF3E047780AF3877D83FDC4 /* MboxAppCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26F960978A828E4EB58DD96263310EBF /* MboxAppCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B945DBB6B13167DD74612E4CA04F4 /* UIImage+Compare.m */; };
+		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4A922B7591AB95888AABB1865BCE0A /* UIImage+Snapshot.m */; };
+		7943A0C08AE8CF6D64C03E89837AB5EB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24644C049329926BCD9F72976AB36055 /* MapKit.framework */; };
+		7B0C67E38195AE17F4E26B6269F12DD2 /* CHTCollectionViewWaterfallLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC4C60F7298CF176B8E32B543454D39C /* CHTCollectionViewWaterfallLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C02292738E01975C429CC3846D34AE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7896B8A1EAEB6DBFACF7751180647F2 /* Foundation.framework */; };
+		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E0A5E6532D6F18F4C362D6F6BA55DED /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BF72D15D4497DF0FDAC3A1905ACDEDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7896B8A1EAEB6DBFACF7751180647F2 /* Foundation.framework */; };
+		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5914721FA3F3752B78B2E9118799F96B /* FBSnapshotTestController.m */; };
+		AC9D7DB8DA5D1E396F3E8F7A61EA8AB3 /* MboxCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8819143121B005CBA28C7E11E1C02AE /* MboxCollectionView.swift */; };
 		B40057981B5983851F489F940E741853 /* Pods-MboxAppCommon_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 691C73C040B68179CB8BB99242552E63 /* Pods-MboxAppCommon_Tests-dummy.m */; };
-		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
-		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C93F2C4BF0AA7FA8A211F510F06513 /* Pods-MboxAppCommon_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D86DB0AF71D725078AE3C8CFA70A8161 /* Pods-MboxAppCommon_Example-dummy.m */; };
-		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D87CF29ADEFA01A91D9A9BF5057E67E6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F36579C028D7E968EDE5220719F0599 /* ReplaceMe.swift */; };
-		DAD9A0E0F40D3984B78A22F8D3CDAB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
-		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		FED7AA82F552BF64F8F7364DBE6289EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
+		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48EC9E079F32ABCC2D1368743B6DC01D /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 7889C2395FF29CB695F93F4D3EBB1BB5 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B06AC9B2EE37FBF38463B8908A3A2EC /* FBSnapshotTestCase.m */; };
+		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 5987F9C348055F4396E245BC792C8EEC /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C477266A80E33B876903DF1B7552507E /* CHTCollectionViewWaterfallLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F83E777AF79DD63CDBFC6125875BDE /* CHTCollectionViewWaterfallLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 542BC91D1BFFD9D07042C4536010A52E /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D477A7203DAF93B4C1D02FD2A1A8D495 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F7E31903FD9968B054969FA0539EE2 /* UIKit.framework */; };
+		DAD9A0E0F40D3984B78A22F8D3CDAB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7896B8A1EAEB6DBFACF7751180647F2 /* Foundation.framework */; };
+		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C3751F86F5ED384D805BB657C4204D /* FBSnapshotTestCasePlatform.m */; };
+		F37C53DC1F377928E9DFB95E1E13B9C1 /* MboxAppCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0EE2F87DB4721586C964A6BDE26BA9 /* MboxAppCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FED7AA82F552BF64F8F7364DBE6289EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7896B8A1EAEB6DBFACF7751180647F2 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +53,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2BD230ED9DD955EAEA10963FC807739A;
+			remoteGlobalIDString = D5DA5E47065689D01478F72F88EF3823;
 			remoteInfo = "Pods-MboxAppCommon_Example";
 		};
 		6A186E791535115DBD974A0CE4F2392F /* PBXContainerItemProxy */ = {
@@ -55,76 +63,101 @@
 			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		6C73792916299AADF8F5E2F10DDBCEEF /* PBXContainerItemProxy */ = {
+		C6F9958D91DA6D39DD068261DAB2064D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F0D5118997570BEC7DECA1D49573EEC0;
+			remoteGlobalIDString = A197C081A082042562B6F8F3B345A0A4;
+			remoteInfo = CHTCollectionViewWaterfallLayout;
+		};
+		E5C3DC28702A9F4481DA2FC5D3024329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A197C081A082042562B6F8F3B345A0A4;
+			remoteInfo = CHTCollectionViewWaterfallLayout;
+		};
+		F40A61804C13B278F60DA2FEB4DED5B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB7D5DB461CFD3D8F23024CAA0D2F29A;
 			remoteInfo = MboxAppCommon;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		02CE54F380184A88E364E7ECF687DB57 /* Pods_MboxAppCommon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MboxAppCommon_Example.framework; path = "Pods-MboxAppCommon_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		061EA647B1A35DA21ADA544500E1EFA7 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		0B06AC9B2EE37FBF38463B8908A3A2EC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		179ED9B2DCF3EF79A781420B376FC0B5 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		190C518CBD4458E93485E8FEF2751E22 /* Pods-MboxAppCommon_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MboxAppCommon_Example.release.xcconfig"; sourceTree = "<group>"; };
-		21D9080F52253CEDCC19CE805B90AAAB /* Pods_MboxAppCommon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MboxAppCommon_Tests.framework; path = "Pods-MboxAppCommon_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26F960978A828E4EB58DD96263310EBF /* MboxAppCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MboxAppCommon-umbrella.h"; sourceTree = "<group>"; };
+		24644C049329926BCD9F72976AB36055 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		27E65C44DC13BF29EC834CEA4B78CD4A /* Pods-MboxAppCommon_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MboxAppCommon_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		2F36579C028D7E968EDE5220719F0599 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MboxAppCommon/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		32155400AAB6B63E94B396C617B2AEE4 /* Pods_MboxAppCommon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MboxAppCommon_Example.framework; path = "Pods-MboxAppCommon_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		326B9544D6F1370BDCDEF317A05AE53A /* MboxAppCommon.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MboxAppCommon.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3A75CE9E8409C8864B5CB72ADBAED09C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B3E17E525E8D6FF0B501FC6F7F3C420 /* Pods-MboxAppCommon_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MboxAppCommon_Example.modulemap"; sourceTree = "<group>"; };
-		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		44AF410145DE94FCEB09BED23CF55360 /* MboxAppCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MboxAppCommon.modulemap; sourceTree = "<group>"; };
-		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		542708BD940E62C549B2FA060D43A018 /* MboxAppCommon.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MboxAppCommon.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		5952577DEDC8E0DCF3733EEF06C8E516 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3B9F41DD592BFF1195BAFE016FD9F3CC /* MboxAppCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MboxAppCommon.modulemap; sourceTree = "<group>"; };
+		424295B2C769879F1D994DCAA1587485 /* MboxAppCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MboxAppCommon-dummy.m"; sourceTree = "<group>"; };
+		43DAAA0C9D1296CC9687FCB18552B6C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4684D214D6F052797A3E2E72DD51F321 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4842802A32F4D73567F7913561A91416 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		48EC9E079F32ABCC2D1368743B6DC01D /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		4C0EE2F87DB4721586C964A6BDE26BA9 /* MboxAppCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MboxAppCommon-umbrella.h"; sourceTree = "<group>"; };
+		50A2CA68CDBA6D05ED71CB52EEE61C7B /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		542BC91D1BFFD9D07042C4536010A52E /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		5914721FA3F3752B78B2E9118799F96B /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		5987F9C348055F4396E245BC792C8EEC /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		5D32C4EBFAB3A8AD52A13741061E58EC /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		5DAD4A66C492AEB46499063819DF3C2B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		640EE8798BD69A081BA79F86AC79F957 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		642AECD761709312347AFDCF8E3D1D0F /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		66DB574F1624A2172FD0ED0D1CE88C25 /* Pods-MboxAppCommon_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MboxAppCommon_Example-umbrella.h"; sourceTree = "<group>"; };
-		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		691C73C040B68179CB8BB99242552E63 /* Pods-MboxAppCommon_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MboxAppCommon_Tests-dummy.m"; sourceTree = "<group>"; };
 		6A41E00F6CE3D7E79B6B43CDB2E982AA /* Pods-MboxAppCommon_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MboxAppCommon_Example-resources.sh"; sourceTree = "<group>"; };
-		70A70706975B755809E50C595DA535DD /* MboxAppCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MboxAppCommon-dummy.m"; sourceTree = "<group>"; };
-		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		6BDD5DFBFB95A8A1F455500327349B63 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		6ED53ED6BBE10E04996FE67EE7CACC57 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		7197A710457910FCEBF7BC38D5833E27 /* CHTCollectionViewWaterfallLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CHTCollectionViewWaterfallLayout.modulemap; sourceTree = "<group>"; };
+		7889C2395FF29CB695F93F4D3EBB1BB5 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		7A1D15543DAA07F24BB670C18068245A /* CHTCollectionViewWaterfallLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHTCollectionViewWaterfallLayout-prefix.pch"; sourceTree = "<group>"; };
+		7A4A922B7591AB95888AABB1865BCE0A /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		7BE4F036E24BA2F33662921B7F6D873A /* Pods-MboxAppCommon_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MboxAppCommon_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7C1BE5F63334C22EB2C1AD4E29E655BB /* Pods-MboxAppCommon_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MboxAppCommon_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7C4271EFB73ACD207494AF3A8ADA1BF5 /* Pods-MboxAppCommon_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MboxAppCommon_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		7E0A5E6532D6F18F4C362D6F6BA55DED /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		83F7E31903FD9968B054969FA0539EE2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		89CCF14C10E8521924337E244A4A3DE7 /* Pods-MboxAppCommon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MboxAppCommon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BCD8BF337DDC863ED03741CE4C98FFA /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		92F437B0F41C6BD57B15484EE6FF78DC /* MboxAppCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MboxAppCommon-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94DEEC5F7CF6C9C814D9F61B2CC92430 /* MboxAppCommon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MboxAppCommon.xcconfig; sourceTree = "<group>"; };
 		951CA66B85E1B288A81FB94FC95CFF6E /* Pods-MboxAppCommon_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MboxAppCommon_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		96C3751F86F5ED384D805BB657C4204D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		97699FE1BA6A1D63DE9DAEAEF24DEF50 /* Pods-MboxAppCommon_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MboxAppCommon_Tests-resources.sh"; sourceTree = "<group>"; };
-		9C3F19A4021CB91534EA77F5192928ED /* MboxAppCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MboxAppCommon-prefix.pch"; sourceTree = "<group>"; };
-		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		9CA934E65D8A876F5971BDCB728400A9 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		9CF4E28EB6EF67217F494925C65CA14D /* CHTCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CHTCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
+		9E29AD76EE87708A07A2BE522B2A17F5 /* MboxAppCommon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MboxAppCommon.xcconfig; sourceTree = "<group>"; };
 		AA0A0FF0C70E866D6FB1766018732A49 /* Pods-MboxAppCommon_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MboxAppCommon_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AA833E1D2368920034E31C1C76D971F1 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4BB161A8B66289C780FE63164F7CC4C /* MboxAppCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MboxAppCommon.framework; path = MboxAppCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		AA17595EA80DD4F933F7469321DE35D2 /* CHTCollectionViewWaterfallLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHTCollectionViewWaterfallLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24D9084EACEAF0A9797F7BD6D383137 /* CHTCollectionViewWaterfallLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHTCollectionViewWaterfallLayout.xcconfig; sourceTree = "<group>"; };
+		B8819143121B005CBA28C7E11E1C02AE /* MboxCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MboxCollectionView.swift; path = MboxAppCommon/Classes/MboxCollectionView.swift; sourceTree = "<group>"; };
 		BA1832A35E763F2486FCFDFB7B554039 /* Pods-MboxAppCommon_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MboxAppCommon_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BB54E7824D348FE2DCA62F3D9691668A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		BBE7073CAB19A1FBB96066C7DE484F07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BC4C60F7298CF176B8E32B543454D39C /* CHTCollectionViewWaterfallLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHTCollectionViewWaterfallLayout-umbrella.h"; sourceTree = "<group>"; };
+		C02B945DBB6B13167DD74612E4CA04F4 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		C4F9A155468C0FADB61228E6B767C155 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		C6F83E777AF79DD63CDBFC6125875BDE /* CHTCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CHTCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
 		C7F5F3828B1AB773E45C5A22AC0CCF3E /* Pods-MboxAppCommon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MboxAppCommon_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C83F1E0FB1508E58D5207FD9E7455AE0 /* Pods-MboxAppCommon_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MboxAppCommon_Tests.modulemap"; sourceTree = "<group>"; };
-		D714C2B02E94CC30EA4477E1CB6D5943 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D11F8197D6191206A1DE94FA8C3ACBBF /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D1458889F666D4188A86A04902A7F0FB /* CHTCollectionViewWaterfallLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHTCollectionViewWaterfallLayout-dummy.m"; sourceTree = "<group>"; };
 		D86DB0AF71D725078AE3C8CFA70A8161 /* Pods-MboxAppCommon_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MboxAppCommon_Example-dummy.m"; sourceTree = "<group>"; };
-		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		E46B0146BDAEB317E7954AA150E0C88C /* Pods-MboxAppCommon_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MboxAppCommon_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EC15FFB5C94235E124C985FD93E69283 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		E804B1F4CFC984858FA4DF5E4C0879F2 /* CHTCollectionViewWaterfallLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHTCollectionViewWaterfallLayout.framework; path = CHTCollectionViewWaterfallLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5571F2217B3771E199ABC8EE0F82031 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F57862922F6DF11597A7F76300F73FED /* MboxAppCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MboxAppCommon.framework; path = MboxAppCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7896B8A1EAEB6DBFACF7751180647F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FF2E1E9FA8B7AB6DF74A4390488B5427 /* Pods_MboxAppCommon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MboxAppCommon_Tests.framework; path = "Pods-MboxAppCommon_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,19 +172,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		549E31ABEE5EAFA49209C1FB368CADAA /* Frameworks */ = {
+		46AB679CCFDB78243847585D21555C4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B8DB3BD3CDC4D7A94C1862F18D14639 /* Foundation.framework in Frameworks */,
+				0D082DB2318D7C5118D2BC2FCFB332D3 /* CHTCollectionViewWaterfallLayout.framework in Frameworks */,
+				7C02292738E01975C429CC3846D34AE4 /* Foundation.framework in Frameworks */,
+				7943A0C08AE8CF6D64C03E89837AB5EB /* MapKit.framework in Frameworks */,
+				D477A7203DAF93B4C1D02FD2A1A8D495 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7181ADED713BB92C1E956F361E74591D /* Frameworks */ = {
+		773FEE9F50E466097E7DECFD1BF25F70 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				591FBC41C21630990B90C24A0EED3633 /* Foundation.framework in Frameworks */,
+				9BF72D15D4497DF0FDAC3A1905ACDEDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5EB832DC1198D593524EF1F472819A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB01BBF58335876CA5078E59CB6E35D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,102 +210,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04797EC3B271531B34D0FD6B6D0D9F46 /* Pod */ = {
+		0246DFCF5F4F7CBF54CDA6BA2F22D6D1 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				5952577DEDC8E0DCF3733EEF06C8E516 /* LICENSE */,
-				542708BD940E62C549B2FA060D43A018 /* MboxAppCommon.podspec */,
-				D714C2B02E94CC30EA4477E1CB6D5943 /* README.md */,
+				7E0A5E6532D6F18F4C362D6F6BA55DED /* FBSnapshotTestCase.h */,
+				0B06AC9B2EE37FBF38463B8908A3A2EC /* FBSnapshotTestCase.m */,
+				5987F9C348055F4396E245BC792C8EEC /* FBSnapshotTestCasePlatform.h */,
+				96C3751F86F5ED384D805BB657C4204D /* FBSnapshotTestCasePlatform.m */,
+				5D32C4EBFAB3A8AD52A13741061E58EC /* FBSnapshotTestController.h */,
+				5914721FA3F3752B78B2E9118799F96B /* FBSnapshotTestController.m */,
+				7889C2395FF29CB695F93F4D3EBB1BB5 /* UIApplication+StrictKeyWindow.h */,
+				061EA647B1A35DA21ADA544500E1EFA7 /* UIApplication+StrictKeyWindow.m */,
+				542BC91D1BFFD9D07042C4536010A52E /* UIImage+Compare.h */,
+				C02B945DBB6B13167DD74612E4CA04F4 /* UIImage+Compare.m */,
+				9CA934E65D8A876F5971BDCB728400A9 /* UIImage+Diff.h */,
+				642AECD761709312347AFDCF8E3D1D0F /* UIImage+Diff.m */,
+				179ED9B2DCF3EF79A781420B376FC0B5 /* UIImage+Snapshot.h */,
+				7A4A922B7591AB95888AABB1865BCE0A /* UIImage+Snapshot.m */,
 			);
-			name = Pod;
+			name = Core;
+			sourceTree = "<group>";
+		};
+		0A1488DEE10440BEA96AEA798CCB0E6E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7197A710457910FCEBF7BC38D5833E27 /* CHTCollectionViewWaterfallLayout.modulemap */,
+				B24D9084EACEAF0A9797F7BD6D383137 /* CHTCollectionViewWaterfallLayout.xcconfig */,
+				D1458889F666D4188A86A04902A7F0FB /* CHTCollectionViewWaterfallLayout-dummy.m */,
+				7A1D15543DAA07F24BB670C18068245A /* CHTCollectionViewWaterfallLayout-prefix.pch */,
+				BC4C60F7298CF176B8E32B543454D39C /* CHTCollectionViewWaterfallLayout-umbrella.h */,
+				F5571F2217B3771E199ABC8EE0F82031 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CHTCollectionViewWaterfallLayout";
 			sourceTree = "<group>";
 		};
 		0B5D1C2172F1E6D7AEDF286A2B9C8CB7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				168E3695DE1ED8165A84F6E4E7DD20B2 /* MboxAppCommon */,
+				532C07C21A31DE7F2A4AB839A8E32400 /* MboxAppCommon */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+		40E017558B4BE6116C5F4B786C0BC104 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
-				3EB1A8839A654B1F16EF9E6F67243337 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		168E3695DE1ED8165A84F6E4E7DD20B2 /* MboxAppCommon */ = {
-			isa = PBXGroup;
-			children = (
-				2F36579C028D7E968EDE5220719F0599 /* ReplaceMe.swift */,
-				04797EC3B271531B34D0FD6B6D0D9F46 /* Pod */,
-				4975D1CE07A2D7AA7D034736062E35A6 /* Support Files */,
-			);
-			name = MboxAppCommon;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				F35791481CAFDD8E7715AE1B44687328 /* Core */,
-				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
-				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
+				0246DFCF5F4F7CBF54CDA6BA2F22D6D1 /* Core */,
+				E37900B272763E3316FEB37D19AB9AD7 /* Support Files */,
+				C91201DDEE17EFD76271EA6BF8F86355 /* SwiftSupport */,
 			);
 			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */ = {
+		532C07C21A31DE7F2A4AB839A8E32400 /* MboxAppCommon */ = {
 			isa = PBXGroup;
 			children = (
-				F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */,
-				7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */,
-				4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */,
-				EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */,
-				A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */,
-				67E276593855381568F725E69496F29C /* Info.plist */,
+				B8819143121B005CBA28C7E11E1C02AE /* MboxCollectionView.swift */,
+				6523AF261C91137440C1CAE6FF05224E /* Pod */,
+				8E2A3C751F6822799D6C707890F184EE /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		3EB1A8839A654B1F16EF9E6F67243337 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */,
-				D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */,
-				BBB6A925DF90E5500E7BDCC094FEBEA7 /* UIKit.framework */,
-				E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		4975D1CE07A2D7AA7D034736062E35A6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EC15FFB5C94235E124C985FD93E69283 /* Info.plist */,
-				44AF410145DE94FCEB09BED23CF55360 /* MboxAppCommon.modulemap */,
-				94DEEC5F7CF6C9C814D9F61B2CC92430 /* MboxAppCommon.xcconfig */,
-				70A70706975B755809E50C595DA535DD /* MboxAppCommon-dummy.m */,
-				9C3F19A4021CB91534EA77F5192928ED /* MboxAppCommon-prefix.pch */,
-				26F960978A828E4EB58DD96263310EBF /* MboxAppCommon-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MboxAppCommon";
-			sourceTree = "<group>";
-		};
-		5466540B1583C72C9CE6C8F43388D239 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AA833E1D2368920034E31C1C76D971F1 /* FBSnapshotTestCase.framework */,
-				B4BB161A8B66289C780FE63164F7CC4C /* MboxAppCommon.framework */,
-				32155400AAB6B63E94B396C617B2AEE4 /* Pods_MboxAppCommon_Example.framework */,
-				21D9080F52253CEDCC19CE805B90AAAB /* Pods_MboxAppCommon_Tests.framework */,
-			);
-			name = Products;
+			name = MboxAppCommon;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		59F3710D6CAA3E495BFD7D111BE6947C /* Pods-MboxAppCommon_Tests */ = {
@@ -282,14 +293,33 @@
 			path = "Target Support Files/Pods-MboxAppCommon_Tests";
 			sourceTree = "<group>";
 		};
+		6523AF261C91137440C1CAE6FF05224E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				640EE8798BD69A081BA79F86AC79F957 /* LICENSE */,
+				326B9544D6F1370BDCDEF317A05AE53A /* MboxAppCommon.podspec */,
+				4842802A32F4D73567F7913561A91416 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7082340D77E2CE4C37948BF964DAEBB4 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				C6F83E777AF79DD63CDBFC6125875BDE /* CHTCollectionViewWaterfallLayout.h */,
+				9CF4E28EB6EF67217F494925C65CA14D /* CHTCollectionViewWaterfallLayout.m */,
+			);
+			name = ObjC;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				0B5D1C2172F1E6D7AEDF286A2B9C8CB7 /* Development Pods */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				5466540B1583C72C9CE6C8F43388D239 /* Products */,
+				C62FDCEB6CEED54ABF0C93E50E24EE85 /* Frameworks */,
+				F6D5D81E4BF3ACA31A70093CE59B6E7F /* Pods */,
+				9E6641BBA2532358469ADD56CA3FD7A3 /* Products */,
 				89B50F89009CC568CD9D20A48E15C282 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -303,12 +333,52 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
+		8E2A3C751F6822799D6C707890F184EE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
+				43DAAA0C9D1296CC9687FCB18552B6C5 /* Info.plist */,
+				3B9F41DD592BFF1195BAFE016FD9F3CC /* MboxAppCommon.modulemap */,
+				9E29AD76EE87708A07A2BE522B2A17F5 /* MboxAppCommon.xcconfig */,
+				424295B2C769879F1D994DCAA1587485 /* MboxAppCommon-dummy.m */,
+				92F437B0F41C6BD57B15484EE6FF78DC /* MboxAppCommon-prefix.pch */,
+				4C0EE2F87DB4721586C964A6BDE26BA9 /* MboxAppCommon-umbrella.h */,
 			);
-			name = SwiftSupport;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MboxAppCommon";
+			sourceTree = "<group>";
+		};
+		9917DF405F5B3D971CC2491AEB319F93 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F7896B8A1EAEB6DBFACF7751180647F2 /* Foundation.framework */,
+				24644C049329926BCD9F72976AB36055 /* MapKit.framework */,
+				BB54E7824D348FE2DCA62F3D9691668A /* QuartzCore.framework */,
+				83F7E31903FD9968B054969FA0539EE2 /* UIKit.framework */,
+				4684D214D6F052797A3E2E72DD51F321 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9E6641BBA2532358469ADD56CA3FD7A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E804B1F4CFC984858FA4DF5E4C0879F2 /* CHTCollectionViewWaterfallLayout.framework */,
+				50A2CA68CDBA6D05ED71CB52EEE61C7B /* FBSnapshotTestCase.framework */,
+				F57862922F6DF11597A7F76300F73FED /* MboxAppCommon.framework */,
+				02CE54F380184A88E364E7ECF687DB57 /* Pods_MboxAppCommon_Example.framework */,
+				FF2E1E9FA8B7AB6DF74A4390488B5427 /* Pods_MboxAppCommon_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDA085CC0DC4E4EE3BB897088FBE10E2 /* CHTCollectionViewWaterfallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				7082340D77E2CE4C37948BF964DAEBB4 /* ObjC */,
+				0A1488DEE10440BEA96AEA798CCB0E6E /* Support Files */,
+			);
+			name = CHTCollectionViewWaterfallLayout;
+			path = CHTCollectionViewWaterfallLayout;
 			sourceTree = "<group>";
 		};
 		C2BF11C941EE8859E6DA54A5EBDEFF83 /* Pods-MboxAppCommon_Example */ = {
@@ -329,31 +399,42 @@
 			path = "Target Support Files/Pods-MboxAppCommon_Example";
 			sourceTree = "<group>";
 		};
-		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
+		C62FDCEB6CEED54ABF0C93E50E24EE85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */,
-				39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */,
-				7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */,
-				58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */,
-				1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */,
-				052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */,
-				B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */,
-				2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */,
-				432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */,
-				3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */,
-				85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */,
-				B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */,
-				0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */,
-				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
+				AA17595EA80DD4F933F7469321DE35D2 /* CHTCollectionViewWaterfallLayout.framework */,
+				9917DF405F5B3D971CC2491AEB319F93 /* iOS */,
 			);
-			name = Core;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
+		C91201DDEE17EFD76271EA6BF8F86355 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
-				2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */,
+				6ED53ED6BBE10E04996FE67EE7CACC57 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		E37900B272763E3316FEB37D19AB9AD7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BDD5DFBFB95A8A1F455500327349B63 /* FBSnapshotTestCase.modulemap */,
+				C4F9A155468C0FADB61228E6B767C155 /* FBSnapshotTestCase.xcconfig */,
+				8BCD8BF337DDC863ED03741CE4C98FFA /* FBSnapshotTestCase-dummy.m */,
+				D11F8197D6191206A1DE94FA8C3ACBBF /* FBSnapshotTestCase-prefix.pch */,
+				48EC9E079F32ABCC2D1368743B6DC01D /* FBSnapshotTestCase-umbrella.h */,
+				3A75CE9E8409C8864B5CB72ADBAED09C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		F6D5D81E4BF3ACA31A70093CE59B6E7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDA085CC0DC4E4EE3BB897088FBE10E2 /* CHTCollectionViewWaterfallLayout */,
+				40E017558B4BE6116C5F4B786C0BC104 /* FBSnapshotTestCase */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -361,11 +442,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3AE91B1D2A22DFF10A15D43DD79F2117 /* Headers */ = {
+		129EB6AFCDBB3329977A5A77D6D0FDC2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BE1D881E6C0C09D297D75666A3BF66B /* Pods-MboxAppCommon_Example-umbrella.h in Headers */,
+				3035E6774E58A08156DC3120DF884EAB /* Pods-MboxAppCommon_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B4E2508850CDFB1F8CD811357BEC70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37C53DC1F377928E9DFB95E1E13B9C1 /* MboxAppCommon-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBBE86FA7CB134BC5A73DA9AB379C6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0C67E38195AE17F4E26B6269F12DD2 /* CHTCollectionViewWaterfallLayout-umbrella.h in Headers */,
+				C477266A80E33B876903DF1B7552507E /* CHTCollectionViewWaterfallLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,14 +490,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F6D5AF5662C02EF69BAA3056575A224 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABE82AE7DFF3E047780AF3877D83FDC4 /* MboxAppCommon-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -419,25 +509,7 @@
 			);
 			name = "Pods-MboxAppCommon_Tests";
 			productName = "Pods-MboxAppCommon_Tests";
-			productReference = 21D9080F52253CEDCC19CE805B90AAAB /* Pods_MboxAppCommon_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		2BD230ED9DD955EAEA10963FC807739A /* Pods-MboxAppCommon_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 110C614D6125239BFFE9A7390C2D3336 /* Build configuration list for PBXNativeTarget "Pods-MboxAppCommon_Example" */;
-			buildPhases = (
-				6FBC914ABDF8FECBD959983447C20EDA /* Sources */,
-				7181ADED713BB92C1E956F361E74591D /* Frameworks */,
-				3AE91B1D2A22DFF10A15D43DD79F2117 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F7FCEE6FEBFD99057272DFCE42DD0E0F /* PBXTargetDependency */,
-			);
-			name = "Pods-MboxAppCommon_Example";
-			productName = "Pods-MboxAppCommon_Example";
-			productReference = 32155400AAB6B63E94B396C617B2AEE4 /* Pods_MboxAppCommon_Example.framework */;
+			productReference = FF2E1E9FA8B7AB6DF74A4390488B5427 /* Pods_MboxAppCommon_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
@@ -454,24 +526,61 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = AA833E1D2368920034E31C1C76D971F1 /* FBSnapshotTestCase.framework */;
+			productReference = 50A2CA68CDBA6D05ED71CB52EEE61C7B /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F0D5118997570BEC7DECA1D49573EEC0 /* MboxAppCommon */ = {
+		A197C081A082042562B6F8F3B345A0A4 /* CHTCollectionViewWaterfallLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1A6F1179030CCB55532C2BF9485E739 /* Build configuration list for PBXNativeTarget "MboxAppCommon" */;
+			buildConfigurationList = 8F2BD87A557F983FDD910CB1E924D4A9 /* Build configuration list for PBXNativeTarget "CHTCollectionViewWaterfallLayout" */;
 			buildPhases = (
-				AEAE3B31DB3052D7C24A1268D0EAD45D /* Sources */,
-				549E31ABEE5EAFA49209C1FB368CADAA /* Frameworks */,
-				9F6D5AF5662C02EF69BAA3056575A224 /* Headers */,
+				12E31D2009C4BAA724A5DE8D18CE40F2 /* Sources */,
+				E5EB832DC1198D593524EF1F472819A9 /* Frameworks */,
+				5DBBE86FA7CB134BC5A73DA9AB379C6B /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = CHTCollectionViewWaterfallLayout;
+			productName = CHTCollectionViewWaterfallLayout;
+			productReference = E804B1F4CFC984858FA4DF5E4C0879F2 /* CHTCollectionViewWaterfallLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5DA5E47065689D01478F72F88EF3823 /* Pods-MboxAppCommon_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C90DE5845413E7A46BF96C91BCBC768 /* Build configuration list for PBXNativeTarget "Pods-MboxAppCommon_Example" */;
+			buildPhases = (
+				572508DCA73A397D73D7984C8C5F7860 /* Sources */,
+				773FEE9F50E466097E7DECFD1BF25F70 /* Frameworks */,
+				129EB6AFCDBB3329977A5A77D6D0FDC2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B42821761CCB2DA343E044F6B651E4A /* PBXTargetDependency */,
+				47B5EDE5317FDA419F40BEA6FA63A5C3 /* PBXTargetDependency */,
+			);
+			name = "Pods-MboxAppCommon_Example";
+			productName = "Pods-MboxAppCommon_Example";
+			productReference = 02CE54F380184A88E364E7ECF687DB57 /* Pods_MboxAppCommon_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB7D5DB461CFD3D8F23024CAA0D2F29A /* MboxAppCommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E216A35C2663816A2D787286C060A01 /* Build configuration list for PBXNativeTarget "MboxAppCommon" */;
+			buildPhases = (
+				4C6F0BB3599E99112BB1BF560A0974C6 /* Sources */,
+				46AB679CCFDB78243847585D21555C4C /* Frameworks */,
+				32B4E2508850CDFB1F8CD811357BEC70 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C34A7408CF563660D1E27C09ACEFE0B /* PBXTargetDependency */,
+			);
 			name = MboxAppCommon;
 			productName = MboxAppCommon;
-			productReference = B4BB161A8B66289C780FE63164F7CC4C /* MboxAppCommon.framework */;
+			productReference = F57862922F6DF11597A7F76300F73FED /* MboxAppCommon.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -491,33 +600,43 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5466540B1583C72C9CE6C8F43388D239 /* Products */;
+			productRefGroup = 9E6641BBA2532358469ADD56CA3FD7A3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				A197C081A082042562B6F8F3B345A0A4 /* CHTCollectionViewWaterfallLayout */,
 				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
-				F0D5118997570BEC7DECA1D49573EEC0 /* MboxAppCommon */,
-				2BD230ED9DD955EAEA10963FC807739A /* Pods-MboxAppCommon_Example */,
+				DB7D5DB461CFD3D8F23024CAA0D2F29A /* MboxAppCommon */,
+				D5DA5E47065689D01478F72F88EF3823 /* Pods-MboxAppCommon_Example */,
 				19889C4861E41183956C87B4841FC80D /* Pods-MboxAppCommon_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6FBC914ABDF8FECBD959983447C20EDA /* Sources */ = {
+		12E31D2009C4BAA724A5DE8D18CE40F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0C93F2C4BF0AA7FA8A211F510F06513 /* Pods-MboxAppCommon_Example-dummy.m in Sources */,
+				07F75A2B63B49B39B0C9B66B5346FC28 /* CHTCollectionViewWaterfallLayout-dummy.m in Sources */,
+				327CAF2CFFAEE73A52125E4666715D10 /* CHTCollectionViewWaterfallLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEAE3B31DB3052D7C24A1268D0EAD45D /* Sources */ = {
+		4C6F0BB3599E99112BB1BF560A0974C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78E78E65F3D6A8AF1EBAD3462264AAD1 /* MboxAppCommon-dummy.m in Sources */,
-				D87CF29ADEFA01A91D9A9BF5057E67E6 /* ReplaceMe.swift in Sources */,
+				1ED93D2553C4E4929E3F9DBD27B38624 /* MboxAppCommon-dummy.m in Sources */,
+				AC9D7DB8DA5D1E396F3E8F7A61EA8AB3 /* MboxCollectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572508DCA73A397D73D7984C8C5F7860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59286097A05D28DE648899DD7D5293E8 /* Pods-MboxAppCommon_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,17 +667,29 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0C34A7408CF563660D1E27C09ACEFE0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHTCollectionViewWaterfallLayout;
+			target = A197C081A082042562B6F8F3B345A0A4 /* CHTCollectionViewWaterfallLayout */;
+			targetProxy = E5C3DC28702A9F4481DA2FC5D3024329 /* PBXContainerItemProxy */;
+		};
 		15CF570BEC65187F4CA22AB2AF1E0484 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MboxAppCommon_Example";
-			target = 2BD230ED9DD955EAEA10963FC807739A /* Pods-MboxAppCommon_Example */;
+			target = D5DA5E47065689D01478F72F88EF3823 /* Pods-MboxAppCommon_Example */;
 			targetProxy = 3DC21F0102B94492239CECCFC74A23BC /* PBXContainerItemProxy */;
 		};
-		F7FCEE6FEBFD99057272DFCE42DD0E0F /* PBXTargetDependency */ = {
+		47B5EDE5317FDA419F40BEA6FA63A5C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MboxAppCommon;
-			target = F0D5118997570BEC7DECA1D49573EEC0 /* MboxAppCommon */;
-			targetProxy = 6C73792916299AADF8F5E2F10DDBCEEF /* PBXContainerItemProxy */;
+			target = DB7D5DB461CFD3D8F23024CAA0D2F29A /* MboxAppCommon */;
+			targetProxy = F40A61804C13B278F60DA2FEB4DED5B6 /* PBXContainerItemProxy */;
+		};
+		6B42821761CCB2DA343E044F6B651E4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHTCollectionViewWaterfallLayout;
+			target = A197C081A082042562B6F8F3B345A0A4 /* CHTCollectionViewWaterfallLayout */;
+			targetProxy = C6F9958D91DA6D39DD068261DAB2064D /* PBXContainerItemProxy */;
 		};
 		FEFA752E1EF5522533339ABA1B14C122 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -569,41 +700,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1CDA8031C577146F8B4BC7C761F4A396 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94DEEC5F7CF6C9C814D9F61B2CC92430 /* MboxAppCommon.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MboxAppCommon/MboxAppCommon-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MboxAppCommon/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MboxAppCommon/MboxAppCommon.modulemap";
-				PRODUCT_MODULE_NAME = MboxAppCommon;
-				PRODUCT_NAME = MboxAppCommon;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		246CED37F175AF5E851C3839F63F9521 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = C4F9A155468C0FADB61228E6B767C155 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -633,9 +732,79 @@
 			};
 			name = Debug;
 		};
-		73CECAEB6BA66D78FFEC5D12D82C7BCF /* Release */ = {
+		333F740DCA871E83FEC9A45844748A56 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94DEEC5F7CF6C9C814D9F61B2CC92430 /* MboxAppCommon.xcconfig */;
+			baseConfigurationReference = 27E65C44DC13BF29EC834CEA4B78CD4A /* Pods-MboxAppCommon_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MboxAppCommon_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MboxAppCommon_Example/Pods-MboxAppCommon_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345FF607DB1EC9731540A684D3F8FF90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 190C518CBD4458E93485E8FEF2751E22 /* Pods-MboxAppCommon_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MboxAppCommon_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MboxAppCommon_Example/Pods-MboxAppCommon_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37AFA27C4599A373D0010F391304C203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E29AD76EE87708A07A2BE522B2A17F5 /* MboxAppCommon.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -658,6 +827,70 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B32E4C208042149F198D7710A42CFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E29AD76EE87708A07A2BE522B2A17F5 /* MboxAppCommon.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MboxAppCommon/MboxAppCommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MboxAppCommon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MboxAppCommon/MboxAppCommon.modulemap";
+				PRODUCT_MODULE_NAME = MboxAppCommon;
+				PRODUCT_NAME = MboxAppCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7921194DE05B8DD180B898EEB905FFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B24D9084EACEAF0A9797F7BD6D383137 /* CHTCollectionViewWaterfallLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHTCollectionViewWaterfallLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout.modulemap";
+				PRODUCT_MODULE_NAME = CHTCollectionViewWaterfallLayout;
+				PRODUCT_NAME = CHTCollectionViewWaterfallLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -700,41 +933,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		88245FE6A7E20BCF1EA191AB81E6C9A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 190C518CBD4458E93485E8FEF2751E22 /* Pods-MboxAppCommon_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MboxAppCommon_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MboxAppCommon_Example/Pods-MboxAppCommon_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -892,44 +1090,9 @@
 			};
 			name = Release;
 		};
-		C8F864B7589AA875FB7FC9D5344A7AD3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27E65C44DC13BF29EC834CEA4B78CD4A /* Pods-MboxAppCommon_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MboxAppCommon_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MboxAppCommon_Example/Pods-MboxAppCommon_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		EC2B16E08A82FFFAA496F1301724367A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = C4F9A155468C0FADB61228E6B767C155 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -960,18 +1123,40 @@
 			};
 			name = Release;
 		};
+		F999E6902F9377525256C1A541D849CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B24D9084EACEAF0A9797F7BD6D383137 /* CHTCollectionViewWaterfallLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHTCollectionViewWaterfallLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout.modulemap";
+				PRODUCT_MODULE_NAME = CHTCollectionViewWaterfallLayout;
+				PRODUCT_NAME = CHTCollectionViewWaterfallLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		110C614D6125239BFFE9A7390C2D3336 /* Build configuration list for PBXNativeTarget "Pods-MboxAppCommon_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C8F864B7589AA875FB7FC9D5344A7AD3 /* Debug */,
-				88245FE6A7E20BCF1EA191AB81E6C9A1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -990,11 +1175,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1A6F1179030CCB55532C2BF9485E739 /* Build configuration list for PBXNativeTarget "MboxAppCommon" */ = {
+		7C90DE5845413E7A46BF96C91BCBC768 /* Build configuration list for PBXNativeTarget "Pods-MboxAppCommon_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CDA8031C577146F8B4BC7C761F4A396 /* Debug */,
-				73CECAEB6BA66D78FFEC5D12D82C7BCF /* Release */,
+				333F740DCA871E83FEC9A45844748A56 /* Debug */,
+				345FF607DB1EC9731540A684D3F8FF90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F2BD87A557F983FDD910CB1E924D4A9 /* Build configuration list for PBXNativeTarget "CHTCollectionViewWaterfallLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F999E6902F9377525256C1A541D849CB /* Debug */,
+				7921194DE05B8DD180B898EEB905FFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E216A35C2663816A2D787286C060A01 /* Build configuration list for PBXNativeTarget "MboxAppCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B32E4C208042149F198D7710A42CFA7 /* Debug */,
+				37AFA27C4599A373D0010F391304C203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

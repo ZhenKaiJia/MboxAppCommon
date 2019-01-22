@@ -22,7 +22,7 @@ pod 'MboxAppCommon'
 
 ## Author
 
-ZhenKaiJia, jiazhenkai@fangdd.com
+ZhenKaiJia,
 
 ## License
 

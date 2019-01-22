@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import MboxAppCommon
 
 class ViewController: UIViewController {
+
+    let collectionView = MboxCollectionView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
