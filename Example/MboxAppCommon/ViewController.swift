@@ -11,12 +11,22 @@ import MboxAppCommon
 
 class ViewController: UIViewController {
 
-    let collectionView = MboxCollectionView()
+    let tableView = MboxTableView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        tableView.frame = self.view.frame
+        self.view.addSubview(tableView)
+
+
     }
+
+    func setup() {
+        
+    }
+
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
